@@ -4,22 +4,24 @@ body {
     align-items: center;
     height: 100vh; /* 화면 전체 높이 사용 */
     margin: 0;
-    background-color: #f9f9f9; /* 살짝 밝은 배경 */
+    background-color: #c6ece4; /* 살짝 밝은 배경 */
     text-align: center;
     font-family: 'Arial', sans-serif;
 }
 
 /* h1 스타일 */
 h1 {
-    font-size: 3rem; 
+    font-size: clamp(2rem, 5vw, 3rem); 
     font-weight: bold;
     color: #333;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Cute+Font&family=Dongle:wght@300&display=swap');
+
 /* p 스타일 */
 p {
     font-size: 1.2rem; 
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
-    color: #555;
+    font-family: 'Gaegu', 'Cute Font', 'Dongle', cursive;
+    color: #272626;
     line-height: 1.6; /* 가독성을 위한 줄 간격 */
 }
